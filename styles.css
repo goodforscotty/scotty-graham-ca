@@ -19,7 +19,7 @@ h1,h2,h3,p{margin:0}
 .hero-baseline{margin-top:clamp(32px,3.6vw,53px)}
 .hero-baseline p{font-size:clamp(19px,2.13vw,28px);font-weight:400;letter-spacing:-.018em}
 .location-lockup{display:inline;white-space:nowrap}
-.maple-leaf{display:inline-block;width:.83em;height:.87em;vertical-align:-.12em;margin-left:.26em;margin-right:.48em;fill:var(--accent)}
+.maple-leaf{display:inline-block;width:.83em;height:.87em;vertical-align:-.12em;margin-left:.42em;margin-right:.22em;fill:var(--accent)}
 .location{color:#72726e}
 .work-feature{border-top:1px solid var(--line);padding-top:24px}
 .art-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:16px;align-items:stretch}
@@ -63,4 +63,4 @@ footer{background:var(--ink);color:var(--paper);margin:0 calc(-1 * clamp(24px,5.
 @media (max-width:560px){.page-shell{padding:0 21px}.site-header{height:76px}.wordmark{font-size:18px;letter-spacing:-.065em}.header-link{font-size:11px;letter-spacing:.02em}.hero{padding:88px 0 72px}.hero h1{font-size:clamp(39px,10vw,55px);line-height:1.13;letter-spacing:-.075em}.hero h1 strong{letter-spacing:-.073em}.hero-baseline{margin-top:28px}.hero-baseline p{font-size:17px;line-height:1.4}.location{display:block}.work-feature{padding-top:17px}.art-grid{grid-template-columns:1fr}.art-crop-billboard{aspect-ratio:1.14}.art-crop-sketch{aspect-ratio:1.14}.art-crop-sketch img{width:115%;left:-7.5%;top:-67%}.art-frame figcaption{font-size:12px}.feature-footnote{font-size:18px;margin:25px 0 96px}.section-intro{font-size:27px;margin-bottom:20px}.activity{padding:28px 0 32px;gap:8px}.activity h3{font-size:37px}.activity p{font-size:16px}.about{margin-top:100px;padding-top:100px;padding-bottom:115px}.about h2{font-size:35px}.about-copy p{font-size:17px}footer{margin:0 -21px;padding:0 21px}.footer-main{padding:66px 0 74px}.footer-main h2{font-size:43px}.footer-bottom{font-size:9px;line-height:1.5}}
 @media (max-width:560px){.site-header{height:84px}.wordmark{font-size:22px}.header-link{font-size:12px}.hero-baseline p{font-size:19px}.art-frame figcaption{font-size:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.instagram-button,.header-link{transition:none}}
-@media(max-width:560px){.location-lockup{display:block;margin-top:.2em}.location-lockup .location{display:inline}}
+@media(max-width:560px){.location-lockup{display:block;margin-top:.2em}.location-lockup .location{display:inline}.maple-leaf{margin-left:0}}
